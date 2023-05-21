@@ -1,0 +1,8 @@
+.styleContac{
+    text-decoration: none;
+    color: var(--color-baseTwo-white);
+    padding: 5px 10px;
+    /* border: 1px solid blue; */
+    border-radius: 30px;
+    background-color: var(--color-baseOne-orange);
+}
