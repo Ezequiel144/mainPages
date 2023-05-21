@@ -10,7 +10,7 @@ export function TitleImgMain(){
                 <h3 className="titleAnimated">Texto para animar con letras</h3>
             </article>
             <article className="contentImg">
-                <img className="contentImgMain" src={ImgMain} alt="" />
+                <img className="contentImgMain" src={ImgMain} alt="imgMain" />
             </article>
         </section>
     )

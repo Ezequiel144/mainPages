@@ -1,0 +1,33 @@
+.fontOrange{
+    padding: 40px 35px;
+    /* border: 1px solid red; */
+    background-image: url('../../asset//img//imag\ naranja.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    text-align: center;
+}
+.textOrange{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.titleOfOrange{
+    font-family: var(--letter-primary);
+    letter-spacing: 1.2px;
+    color: var(--color-baseTwo-white);
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.textOfOrange{
+    font-family: var(--letter-secundary);
+    font-weight: 550;
+    line-height: 25px;
+}

@@ -1,7 +1,9 @@
 .contentTitle{
     position: absolute;
     top: 60px;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    /* max-width: 1500px; */
     width: 100%;
     height: 540px;
     font-family: var(--letter-primary);
@@ -11,6 +13,7 @@
     justify-content: space-between;
     align-items: center;
     column-gap: 50px;
+    /* border: 5px solid rebeccapurple; */
 }
 
 .titleMain{
@@ -28,7 +31,6 @@
 }
 
 .contentTitleText{
-    
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -42,7 +44,7 @@
 }
 
 .contentImgMain{
-    object-fit: cover;
+    object-fit: contain;
     width: 100%;
     height: 100%;
 }

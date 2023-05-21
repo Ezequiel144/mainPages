@@ -16,3 +16,8 @@
 /* #root{
     background-color: #000000;
 } */
+.main-cont{
+    max-width: 1500px;
+    margin: auto;
+    position: relative;
+}
