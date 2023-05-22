@@ -29,5 +29,6 @@
 .textOfOrange{
     font-family: var(--letter-secundary);
     font-weight: 550;
-    line-height: 25px;
+    font-size: 1.2rem;
+    line-height: 20px;
 }

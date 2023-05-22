@@ -8,6 +8,7 @@
     --color-baseOne-orange: #FF8C00;
     --color-baseTwo-white: #FFFFFF;
     --color-letter: #000000;
+    --color-baseThree-gray: #686868;
 
     --letter-primary:  'Bebas Neue', sans-serif;
     --letter-secundary: 'Montserrat', sans-serif;
@@ -20,4 +21,12 @@
     max-width: 1500px;
     margin: auto;
     position: relative;
+}
+
+.sec3{
+    padding: 40px 35px;
+}
+
+.sec3_contentService{
+    display: flex;
 }

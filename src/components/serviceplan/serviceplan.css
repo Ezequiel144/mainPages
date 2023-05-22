@@ -1,0 +1,59 @@
+.cardContent{
+    border: 1px solid var(--color-baseThree-gray);
+    width: calc(100%/3)/* 33.33% */;
+    padding: 20px;
+}
+
+.divOne{
+    /* border: 1px solid red; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.titleCard{
+    color: var(--color-baseOne-orange);
+    font-family: var(--letter-primary);
+    letter-spacing: 2px;
+    font-size: 2rem;   
+}
+
+.priceCard{
+    font-size: 1.5rem;
+    font-family: var(--letter-secundary);
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.linerOrange{
+    width: 100%;
+    border: 3px solid var(--color-baseOne-orange);
+    border-radius: 10%;
+    margin: 25px 0;
+}
+
+.subtitle{
+    font-family: var(--letter-primary);
+    text-align: center;
+    width: 100%;
+    font-size: 1.8rem;
+    letter-spacing: 5px;
+}
+
+.listDescrip{
+    padding: 8px 20px;
+}
+
+.descripItem{
+    font-family: var(--letter-secundary);
+    font-size: 1.5rem;
+    padding: 8px;
+    
+}
+
+.contentContact{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
