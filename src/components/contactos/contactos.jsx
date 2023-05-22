@@ -2,8 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import './contactos.css';
 
-export function Contactos(){
+export function Contactos(props){
     return (
-        <Link className="styleContac">Contactos</Link>
+        <Link className="styleContac">
+            {props.name}
+        </Link>
     )
 }

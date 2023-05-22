@@ -15,7 +15,7 @@ export function NavBar(){
                     <li className="linkSelec"><Link className="clicLink">Servicios</Link></li>
                     <li className="linkSelec"><Link className="clicLink">Nosotros</Link></li>
                     <li className="linkSelec"><Link className="clicLink">Portafolio</Link></li>
-                    <li className="linkSelec"><Contactos/></li>
+                    <li className="linkSelec"><Contactos name="Contactos"/></li>
                 </ul>
             </nav>
         </header>
