@@ -4,15 +4,7 @@ import { Contactos } from '../contactos/contactos.jsx';
 
 export function ServicePlan(props){
     return(
-        <article className="cardContent" style={{
-            borderBottom: "1px solid var(--color-baseThree-gray)",
-            
-            /* if (uno = {props,cardNumb}) {
-                return (
-
-                )
-            } */
-        }}>
+        <article className="cardContent">
             <div className="divOne">
                 <h2 className="titleCard">{props.name}</h2>
                 <p className="priceCard">{props.price}</p>

@@ -1,0 +1,9 @@
+.generalTitle{
+    font-size: 2rem;
+    font-family:var(--letter-primary);
+    text-decoration-line: underline;
+    text-align: center;
+    padding: 10px 0;
+    letter-spacing: 1.2px;
+    margin: 0;
+}

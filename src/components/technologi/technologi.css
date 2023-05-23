@@ -1,0 +1,11 @@
+
+
+.imgContentDiv{
+    height: 100px;
+    width: fit-content;
+    /* border: 1px solid red; */
+}
+
+.imgIcon{
+    height: 100%;
+}

@@ -1,12 +1,14 @@
 
 .titleService{
-    font-size: 3rem;
-    font-family: var(--letter-primary);
+    font-size: 2rem;
+    font-family:var(--letter-primary);
     text-decoration-line: underline;
     text-align: center;
     border-top: 1px solid var(--color-baseThree-gray);
     border-left: 1px solid var(--color-baseThree-gray);
     border-right: 1px solid var(--color-baseThree-gray);
+    /* border-bottom: 1px solid var(--color-baseThree-gray); */
     padding: 10px 0;
     letter-spacing: 1.2px;
+    margin: 0;
 }

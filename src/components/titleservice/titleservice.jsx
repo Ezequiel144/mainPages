@@ -3,6 +3,6 @@ import './titleservice.css';
 
 export function TitleService(){
     return(
-        <h1 className="titleService">Servicio</h1>
+        <h1 className="titleService">Service</h1>
     )
 }

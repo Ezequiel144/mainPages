@@ -16,11 +16,11 @@
     color: var(--color-baseOne-orange);
     font-family: var(--letter-primary);
     letter-spacing: 2px;
-    font-size: 2rem;   
+    font-size: 1.5rem;   
 }
 
 .priceCard{
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: var(--letter-secundary);
     width: 100%;
     /* border: 1px solid red; */
@@ -30,14 +30,14 @@
     width: 100%;
     border: 3px solid var(--color-baseOne-orange);
     border-radius: 10%;
-    margin: 25px 0;
+    margin: 12px 0;
 }
 
 .subtitle{
     font-family: var(--letter-primary);
     text-align: center;
     width: 100%;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     letter-spacing: 5px;
 }
 
@@ -47,7 +47,7 @@
 
 .descripItem{
     font-family: var(--letter-secundary);
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 8px;
     list-style-type:circle;
 }
