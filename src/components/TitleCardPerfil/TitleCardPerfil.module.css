@@ -1,0 +1,10 @@
+.title {
+  font-family: var(--letter-primary);
+  text-decoration-line: underline;
+  text-align: center;
+  padding: 20px 0;
+  background-color: var(--color-baseOne-orange);
+  color: var(--color-baseTwo-white);
+  letter-spacing: 1.2px;
+  font-size: 2rem;
+}

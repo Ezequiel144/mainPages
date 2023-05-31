@@ -1,0 +1,56 @@
+.contentGeneral{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.main-cont{
+    max-width: 1500px;
+    margin: auto;
+    position: relative;
+}
+
+.sec3{
+    padding: 40px 35px;
+}
+
+.sec3_contentService{
+    display: flex;
+}
+
+.sec4{
+    padding: 40px 35px;
+}
+.contentTech{
+    border-top: 4px solid var(--color-baseOne-orange);
+    border-bottom: 4px solid var(--color-baseOne-orange);
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    /* column-gap: 5px;     */
+    margin: 10px 0 0 0;
+}
+
+.contentImgUno{
+    width: 100%;
+    height: 800px;
+
+}
+
+.sec5{
+    height: 600px;
+    background-image: url(../asset//img//imagenOrangeFineSec5.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.sec5-perfil{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    /* column-gap: 300px; */
+    width: 100%;
+    height: 450px;
+    /* border: 1px solid black; */
+    padding: 0 220px;
+}

@@ -1,0 +1,111 @@
+.container {
+  all: unset;
+  width: 100%;
+  display: grid;
+  align-items: center;
+  margin: 0 auto;
+  /* background: rgb(246, 199, 128);
+  background: linear-gradient(
+    90deg,
+    rgba(246, 199, 128, 1) 0%,
+    rgba(178, 122, 97, 1) 100%
+  ); */
+  background-image: url(../../asset/img//fontImgOfContact.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 25px 0;
+}
+
+.containerBox {
+  width: 25%;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.9); /* Agrega la sombra deseada */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.h2Form {
+  text-align: center;
+}
+
+.boxForm {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0;
+  margin: 0 auto;
+}
+
+.boxForm span {
+  color: red;
+}
+
+.input {
+  height: 2rem;
+  border-radius: 10px;
+  background-color: #f5c283;
+  border: 0;
+  padding: 0 5px;
+}
+
+.input:focus {
+  outline: none; /* Quita el contorno al enfocar */
+  box-shadow: none; /* Quita la sombra al enfocar */
+}
+.inputMensaje {
+  height: 10rem;
+  resize: none; /* Desactiva la redimensionabilidad */
+}
+.btn {
+  margin: 0 auto;
+}
+
+/* .btnDisable, .btnEnable{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.btnDisable {
+  width: 90%;
+  height: 4rem;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  transition: 1s;
+  
+}
+
+.btnEnable {
+  width: 90%;
+  height: 4rem;
+  margin: 0 auto;
+  background-color: rgb(225, 199, 36);
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 1s;
+}
+
+.nameInput{
+  font-family: var(--letter-secundary);
+  font-weight: 700;
+  width: fit-content;
+}
+
+.nameButton{
+  font-family: var(--letter-secundary);
+  font-weight: 700;
+  width: fit-content;
+  margin: auto;
+}

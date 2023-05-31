@@ -1,0 +1,54 @@
+.a {
+  position: relative;
+}
+
+.imgFondo {
+  width: 100%;
+  height: 8rem;
+}
+
+.containerFooter {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 8rem;
+  /*   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.1);
+  background-color: rgba(187, 204, 103, 0.2);
+  backdrop-filter: blur(5px); */
+  /* background: rgb(255, 243, 50);
+  background: linear-gradient(
+    16deg,
+    rgba(255, 243, 50, 1) 0%,
+    rgba(249, 213, 103, 1) 50%,
+    rgba(255, 180, 0, 1) 100%
+  ); */
+  background-color: var(--color-footerPrimary);
+  display: flex;
+  /*   flex-direction: column; */
+  justify-content: space-around;
+  align-items: center;
+}
+
+.imgLogoFooter {
+  width: 100px;
+  background-color: white;
+  border-radius: 40%;
+}
+.boxTitulo {
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5px;
+  background-color: var(--color-footerSecundary);
+}
+.h2Footer {
+  font-size: 18px;
+  color: white;
+}
+
+.imgWaFooter {
+  width: 80px;
+}
