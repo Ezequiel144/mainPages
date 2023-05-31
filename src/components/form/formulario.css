@@ -89,11 +89,12 @@
   width: 90%;
   height: 4rem;
   margin: 0 auto;
-  background-color: rgb(225, 199, 36);
+  background-color: white;
   color: black;
   font-size: 18px;
   font-weight: bold;
   border-radius: 5px;
+  border: 3px solid var(--color-baseOne-orange);
   transition: 1s;
 }
 
